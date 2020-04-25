@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { CovidService } from './covid.service';
+import { Component, OnInit } from '@angular/core';
+import { map } from 'rxjs/operators';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'covid19RealTimeData';
+  
 }
+
